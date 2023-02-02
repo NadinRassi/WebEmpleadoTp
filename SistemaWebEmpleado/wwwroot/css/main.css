@@ -1,0 +1,50 @@
+﻿body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+.sidebar-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-home img {
+    width: 2rem;
+    height: auto;
+}
+
+header {
+    padding: 0 1rem 0 0;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+#tabla-empleados {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tabla-empleados th, #tabla-empleados td {
+    border: 1px solid black;
+}
+
+footer {
+    margin-top: 20%;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+}
